@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    background:#00cc66;
+    padding:20px;
+    text-align:center;
+}
+
+.hero{
+    padding:50px 20px;
+    text-align:center;
+}
+
+button{
+    background:#00cc66;
+    color:black;
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    width:250px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.price{
+    color:#00cc66;
+    font-size:22px;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+}
